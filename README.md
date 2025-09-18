@@ -1,16 +1,25 @@
-# shartflix
+Başlarken
 
-A new Flutter project.
+Bu projeyi çalıştırabilmek için öncelikle bilgisayarınıza Flutter kurulmuş olmalı ve PATH değişkenine eklenmiş olmalıdır.
 
-## Getting Started
+Projeyi kullanmak için adımlar:
 
-This project is a starting point for a Flutter application.
+Flutter’ı indir ve PATH’e ekle.
 
-A few resources to get you started if this is your first Flutter project:
+Terminal/PowerShell’de proje klasörüne gir:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+cd shartflix
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Projeyi temizle ve gerekli paketleri yükle:
+
+flutter clean
+flutter pub get
+
+
+Uygulamayı çalıştır:
+
+flutter run
+
+
+Bu adımlar tamamlandıktan sonra uygulama cihazınızda veya emulatorda çalışacaktır.

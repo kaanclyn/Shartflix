@@ -38,9 +38,6 @@ flutter run
 ```powershell
 # APK
 flutter build apk --release
-
-# Play Store için AAB
-flutter build appbundle --release
 ```
 
 ## Sorun Giderme

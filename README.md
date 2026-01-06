@@ -37,28 +37,40 @@ $env:Path += ";C:\Program Files\Flutter\bin;C:\src\flutter\bin"
 # Kurulumu doğrula
 flutter --version
 
-Uygulama Davranışı
+---
+
+# Uygulama Davranışı
 	•	Dil tercihi ilk açılışta otomatik olarak yüklenir
 	•	Android için internet izni Manifest dosyasına eklenmiştir
 	•	Ana ekran üzerinden mock veya backend veri kaynağına geçiş yapılabilir
 
-Android Yayın Alma
+---
+
+# Android Yayın Alma
 flutter build apk --release
 
-Sorun Giderme
+---
 
-Flutter komutu bulunamıyor
+## Sorun Giderme
+
+# Flutter komutu bulunamıyor
 	•	PowerShell oturumunu kapatıp tekrar açın
 	•	Flutter bin dizininin PATH’e eklendiğinden emin olun
 
-Bağımlılık sorunları
+---
+
+# Bağımlılık sorunları
 flutter clean
 flutter pub get
 
-Cihaz görünmüyor
+---
+
+# Cihaz görünmüyor
 adb devices
 •	Emülatörün çalıştığından veya USB hata ayıklamanın açık olduğundan emin olun
 
-Not
+---
+
+## Not
 
 Bu proje, teknik yetkinlikleri ve Flutter geliştirme yaklaşımını göstermek amacıyla hazırlanmış bir case çalışmasıdır.

@@ -25,6 +25,12 @@ Bu proje, Flutter bilgimi, kullanıcı arayüzü yaklaşımımı ve uygulama mim
 
 ---
 
+## Not
+
+Bu proje, teknik yetkinlikleri ve Flutter geliştirme yaklaşımını göstermek amacıyla hazırlanmış bir case çalışmasıdır.
+
+---
+
 ## Flutter Kurulumu (Windows / PowerShell)
 
 ```powershell
@@ -37,19 +43,13 @@ $env:Path += ";C:\Program Files\Flutter\bin;C:\src\flutter\bin"
 # Kurulumu doğrula
 flutter --version
 
----
-
 # Uygulama Davranışı
 	•	Dil tercihi ilk açılışta otomatik olarak yüklenir
 	•	Android için internet izni Manifest dosyasına eklenmiştir
 	•	Ana ekran üzerinden mock veya backend veri kaynağına geçiş yapılabilir
 
----
-
 # Android Yayın Alma
 flutter build apk --release
-
----
 
 ## Sorun Giderme
 
@@ -57,20 +57,11 @@ flutter build apk --release
 	•	PowerShell oturumunu kapatıp tekrar açın
 	•	Flutter bin dizininin PATH’e eklendiğinden emin olun
 
----
-
 # Bağımlılık sorunları
 flutter clean
 flutter pub get
 
----
-
 # Cihaz görünmüyor
 adb devices
-•	Emülatörün çalıştığından veya USB hata ayıklamanın açık olduğundan emin olun
+•	Emülatörün çalıştığından veya USB hata ayıklamanın açık olduğundan emin olun.
 
----
-
-## Not
-
-Bu proje, teknik yetkinlikleri ve Flutter geliştirme yaklaşımını göstermek amacıyla hazırlanmış bir case çalışmasıdır.
